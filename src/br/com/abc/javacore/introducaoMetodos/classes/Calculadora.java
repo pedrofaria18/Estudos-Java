@@ -51,6 +51,37 @@ public class Calculadora {
     }
 
 
+    public void alteraDoisNumeros (int num1, int num2) {
+        num1 = 30;
+        num2 = 40;
+        System.out.println(num1);
+        System.out.println(num2);
+    }
+
+
+    public void somaArray(int [] numeros) {
+        int soma = 0;
+        for( int num : numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    /*
+     varargs é uma abreviação de uma passagem de um parâmetro array
+     (OBS: só pode passar um varargs por método)
+     (OBS2: para passar outros parametros o varargas deve ser o último)
+     */
+
+    public void somaVarArgs(int ... numeros) {
+        int soma = 0;
+        for( int num : numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+
 
 
 }

@@ -29,5 +29,14 @@ public class CalculadoraTeste {
 
         // VOID COM RETURN SERVINDO DE BREAK
         calc.divideDoisNumerosVoid(20, 0);
+
+
+        // PARÂMETRO DE ARRAY
+        int [] numeros = {1,2,3,4,5};
+        calc.somaArray(numeros);
+
+
+        // PARÂMETRO VARARGS
+        calc.somaVarArgs(1, 2, 3, 4, 5);
     }
 }
